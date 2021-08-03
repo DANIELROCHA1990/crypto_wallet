@@ -1,17 +1,17 @@
 <h1>Bem vindo!</h1>
 <p>Site de teste feito para moedas digitais</p>
-<p>Idioma utilizado nesta aplicação é: <strong><%= locale %></strong></p>
+<p>Idioma utilizado nesta aplicação é: <strong><%= t('actual_language') %></strong></p>
 <p><strong>Data: </strong> <%= I18n.l(Date.today)%></p>
-<p><%= t('hello') %></p>
 
 <%= render "menu"%>
-
+<%# 
 <p>
-    Eu me chamo <strong><%= @meu_nome %></strong>
-</p>
+    Eu me chamo <strong><%= @meu_nome %>
+    <%# </strong> %>
+<%# </p> %>
 
-<p>
-    Eu estou cursando <strong><%= @meu_curso %></strong> e o status está <strong> <%=@status%> </strong>
-</p>
-
-<%# http://localhost:3000/welcome/index/?nome=Daniel&curso=Rails&status=Em%20Andamento %>
+<%# <p> %>
+    <%# Eu estou cursando <strong><%= @meu_curso %>
+    <%# </strong>  %>
+    <%# e o status está <strong> <%=@status </strong> %> 
+<%# </p> %>

@@ -1,5 +1,6 @@
 pt-BR:
   hello: "Olá mundo"
+  actual_language: "Portugues-BR"
   links:
     edit: "Editar"
     show: "Mostrar"
