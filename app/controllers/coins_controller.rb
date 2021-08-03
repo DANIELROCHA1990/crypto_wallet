@@ -1,7 +1,7 @@
 class CoinsController < ApplicationController
-  layout "adm"
-  before_action :set_coin, only: %i[ show edit update destroy ]
-  before_action :set_mining_type_options, only: %i[ new edit update create]
+  layout 'adm'
+  before_action :set_coin, only: %i[show edit update destroy]
+  before_action :set_mining_type_options, only: %i[new edit update create]
 
   # GET /coins or /coins.json
   def index
