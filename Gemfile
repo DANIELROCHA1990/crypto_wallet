@@ -14,6 +14,7 @@ gem 'bootsnap', '>= 1.4.4', require: false
 gem 'wdm', '~> 0.1.1'
 gem 'pry-rails'
 gem 'tty-spinner', '~> 0.9.3'
+gem 'i18n', '~> 1.8', '>= 1.8.10'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
