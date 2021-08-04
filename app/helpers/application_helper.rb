@@ -1,9 +1,19 @@
 module ApplicationHelper
-    def date_br(date_us)
-        date_us.strftime("%d/%m/%Y")
-    end    
+  def date_br(date_us)
+    date_us.strftime('%d/%m/%Y')
+  end
 
-    def locale(locale)
-      I18n.locale == :en ? 'U.S.A' : 'Português/BR'
-    end
+  # def ambiente_rails
+  #   if Rails.env.development?
+  #     'Desenvolvimento'
+  #   elsif Rails.env.production?
+  #     'Producao'
+  #   else
+  #     'Teste'
+  #   end
+  # end
+
+  def locale
+    I18n.locale == :en ? 'USA' : 'Portugues-BR' # if inline
+  end
 end

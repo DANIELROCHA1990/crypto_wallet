@@ -1,11 +1,14 @@
-<p> Hoje é <%= date_br(Date.today)%></p>
-<p> <%= Time.now.strftime("%H:%M") %> </p>
+<%# <p> 
+Hoje é <%= date_br(Date.today)%> 
+<%# </p> %>
+
+<p> Horário local: <%= Time.now.strftime("%H:%M") %> </p>
 <ul>
 <li>
-Para iniciar <%=link_to "Clique aqui", coins_path%>  <%#Linguagem Ruby%> 
+Para iniciar <%=link_to "Clique aqui", coins_path%>  <%#Linguagem Ruby misturada ao html%> 
 </li>
 
 <li>
-    <%=link_to "Tipos de Mineração", mining_types_path%>  <%#Linguagem Ruby%> 
+    <%=link_to "Tipos de Mineração", mining_types_path%>  <%#Linguagem Ruby misturada ao html%> 
 </li>
 </ul>
