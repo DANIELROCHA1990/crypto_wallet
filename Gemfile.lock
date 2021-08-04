@@ -103,10 +103,17 @@ GEM
     minitest (5.14.4)
     msgpack (1.4.2)
     nio4r (2.5.8)
+<<<<<<< HEAD
     nokogiri (1.12.0)
       mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
     nokogiri (1.12.0-x64-mingw32)
+=======
+    nokogiri (1.12.1)
+      mini_portile2 (~> 2.6.1)
+      racc (~> 1.4)
+    nokogiri (1.12.1-x64-mingw32)
+>>>>>>> e69b62d7def611ef52a17b19aabdb1dbd83ff011
       racc (~> 1.4)
     pry (0.14.1)
       coderay (~> 1.1)

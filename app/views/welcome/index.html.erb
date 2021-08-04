@@ -1,22 +1,17 @@
 <h1>Bem vindo!</h1>
 <p>Site de teste feito para moedas digitais</p>
+<p>Idioma utilizado nesta aplicação é: <strong><%= t('actual_language') %></strong></p>
+<p><strong>Data: </strong> <%= I18n.l(Date.today)%></p>
 
 <%= render "menu"%>
-
+<%# 
 <p>
-Eu me chamo <strong><%= @meu_nome %></strong>
-</p>
+    Eu me chamo <strong><%= @meu_nome %>
+    <%# </strong> %>
+<%# </p> %>
 
-<p>
-Eu estou cursando <strong><%= @meu_curso %></strong> e o status está <%=@status%>
-</p>
-
-
-
-
-
-
-
-
-
- <%#<p> Para iniciar <a href="http://localhost:3000/coins">Clique aqui></p> HTML%>
+<%# <p> %>
+    <%# Eu estou cursando <strong><%= @meu_curso %>
+    <%# </strong>  %>
+    <%# e o status está <strong> <%=@status </strong> %> 
+<%# </p> %>
