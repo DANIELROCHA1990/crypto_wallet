@@ -1,4 +1,13 @@
+<p>
+  <%= link_to 'Português', root_path(locale: 'pt-BR') %>
+</p>
+<p>
+  <%= link_to 'English', root_path(locale: 'en') %>
+</p>
 <h1>Bem vindo!</h1>
+<h2> <%= cookies[:curso]%> </h2>
+<h2> <%= session[:curso]%> </h2>
+
 <p>Site de teste feito para moedas digitais</p>
 <p>Idioma utilizado nesta aplicação é: <strong><%= t('actual_language') %></strong></p>
 <p><strong>Data: </strong> <%= I18n.l(Date.today)%></p>

@@ -12,7 +12,7 @@ gem 'sass-rails', '>= 6'
 gem 'sqlite3', '~> 1.4'
 gem 'tty-spinner', '~> 0.9.3'
 gem 'turbolinks', '~> 5'
-gem 'wdm', '~> 0.1.1'
+# gem 'wdm', '~> 0.1.1'
 gem 'webpacker', '~> 5.0'
 
 group :development, :test do
