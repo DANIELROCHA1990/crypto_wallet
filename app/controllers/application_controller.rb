@@ -6,7 +6,7 @@ class ApplicationController < ActionController::Base
     end
 
     if cookies[:locale] # Verifica se ha um cookie com a chave locale
-      if I18n.locale != cookies[:locale] # Verifica se o locale que está na app é diferente do que esta armzenado
+      if I18n.locale != cookies[:locale] # Verifica se o locale que esta na app e diferente do que esta armzenado
         I18n.locale = cookies[:locale] # Se for diferente, ele joga o idioma de locale dentro do cookie atual
       end
     end
